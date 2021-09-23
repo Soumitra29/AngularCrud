@@ -9,7 +9,8 @@ import { Product } from './product';
   providedIn: 'root'
 })
 export class simpleCrudService {
-  private apiServer = "http://localhost:62669/api";
+  //private apiServer = "http://localhost:62669/api";
+  private apiServer ="http://localhost:3000";
   httpOptions = {
     headers: new HttpHeaders({
       'Content-Type': 'application/json'
